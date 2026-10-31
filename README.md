@@ -41,12 +41,6 @@ Data analysis and visualization project using COVID-19 data.
 
 Projects applying computational and mathematical approaches to scientific questions.
 
-### 🪐 Exoplanet Habitability
-
-Computational exploration of exoplanet habitability.
-
-[View Repository](https://github.com/ClaudethClarissa/Exoplanet-Habitability)
-
 ### 🎲 Random Walk Statistical Project
 
 Statistical and computational exploration of random-walk processes.
@@ -59,7 +53,24 @@ Statistical and computational exploration of random-walk processes.
 
 Projects demonstrating statistical learning, predictive methods, unsupervised learning, and computational modeling.
 
-*Projects will be added as they are documented and prepared for publication.*
+### Detecting Depression-Related Language in Tweets
+
+**Tools:** Python, Pandas, Scikit-learn, Matplotlib, Jupyter
+
+A tweet-level classification project that uses decision trees and unigram, bigram, and trigram features to identify language labeled as depression-related. I corrected the feature-selection process to prevent information leakage from the test set and evaluated how model performance changes when explicit depression-related words are removed.
+
+**Skills demonstrated:**
+- Text preprocessing and n-gram feature extraction
+- Supervised classification with interpretable decision trees
+- Train/test splitting, duplicate handling, and leakage prevention
+- Accuracy, balanced accuracy, classification reports, and confusion matrices
+- Ablation experiments and critical evaluation of dataset limitations
+
+**Key observation:** Unigram accuracy decreased from **99.61% to 88.42%** after removing explicit depression-related terms. The project examines why this happens and why tweet classification should not be confused with clinical diagnosis.
+
+[View Repository and Executed Notebook](https://github.com/ClaudethClarissa/Depression_Sentiment_Analysis)
+
+![Comparison of model accuracies](https://raw.githubusercontent.com/ClaudethClarissa/Depression_Sentiment_Analysis/main/assets/model_accuracy.svg)
 
 ---
 
