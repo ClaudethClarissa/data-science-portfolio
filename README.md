@@ -64,11 +64,15 @@ Machine-learning classification of tweets using decision trees and unigram, bigr
 
 ## 📈 Business Intelligence & Dashboards
 
-Projects involving dashboards, KPI monitoring, business-oriented data analysis, and interactive visualizations.
+### 🌎 COVID-19 Cases, Deaths & Vaccination Dashboards
 
-**Technologies:** Power BI, Tableau, SQL, Python
+Two Tableau dashboards complement the SQL analysis of COVID-19 data across North and South America, presenting reported cases, deaths, and vaccination indicators. The cases-and-deaths dashboard is available interactively; the vaccination dashboard is preserved as an image in the project repository.
 
-*Dashboard projects will be added here.*
+**Tools:** Tableau, SQL Server (T-SQL)  
+**Skills:** Dashboard design, data visualization, communicating analytical findings  
+**Highlight:** Interactive cases-and-deaths dashboard and historical vaccination tracker visualization.
+
+[View Interactive Dashboard](https://public.tableau.com/views/CovidAnalysis_16815283795840/Dashboard1) · [View Both Dashboards in Project](https://github.com/ClaudethClarissa/American-Covid-Analysis#dashboards)
 
 ---
 
