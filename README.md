@@ -4,8 +4,6 @@
 
 Welcome to my Data Science and Analytics portfolio!
 
-I hold an MSc in Physics with a specialization in Computational Neuroscience from the University of Calgary. My background includes scientific computing, statistical analysis, computational modeling, and data visualization.
-
 This portfolio showcases projects involving real-world datasets, exploratory analysis, statistical methods, and reproducible computational workflows.
 
 ---
