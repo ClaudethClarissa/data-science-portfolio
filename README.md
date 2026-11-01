@@ -12,65 +12,53 @@ This portfolio showcases projects involving real-world datasets, exploratory ana
 
 ## 📊 Data Analytics & Exploratory Analysis
 
-Projects focusing on data cleaning, exploratory data analysis, visualization, and identifying meaningful patterns.
-
 ### 🌦️ Historical Meteorological Data Analysis
 
-**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn
+Analysis of historical precipitation and temperature records from Navojoa, Mexico, using exploratory statistics and time-series visualizations. The project examines seasonal patterns and the limitations of incomplete observations.
 
-Analysis of historical meteorological observations from Navojoa, Sonora, Mexico.
+**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn  
+**Skills:** Data cleaning, exploratory analysis, time series, statistical visualization  
+**Highlight:** Monthly precipitation and temperature comparisons, with documented data-coverage limitations.
 
-**Skills demonstrated:**
-- Data cleaning and preprocessing
-- Exploratory Data Analysis
-- Descriptive statistics
-- Time series analysis
-- Moving averages and data visualization
-
-[View Repository](https://github.com/ClaudethClarissa/Meteorological-Data-Analysis)
+[Explore Project](https://github.com/ClaudethClarissa/Meteorological-Data-Analysis)
 
 ### 🌎 American COVID-19 Analysis
 
-Data analysis and visualization project using COVID-19 data.
+SQL analysis of reported COVID-19 cases, deaths, and vaccinations across North and South America. The project uses analytical queries to investigate country-level indicators and presents the findings through Tableau dashboards.
 
-[View Repository](https://github.com/ClaudethClarissa/American-Covid-Analysis)
+**Tools:** SQL Server (T-SQL), SQL, Tableau  
+**Skills:** Data quality checks, SQL joins, analytical queries, dashboard development  
+**Highlight:** Cases-and-deaths and vaccination dashboards, with an interactive Tableau visualization and preserved dashboard screenshots.
+
+[Explore Project](https://github.com/ClaudethClarissa/American-Covid-Analysis)
 
 ---
 
 ## 🔬 Scientific Computing & Statistical Analysis
 
-Projects applying computational and mathematical approaches to scientific questions.
-
 ### 🎲 Random Walk Statistical Project
 
-Statistical and computational exploration of random-walk processes.
+Computational investigation of random walks under symmetric and directionally biased movement probabilities. The project explores particle trajectories, endpoint distributions, Gaussian fitting, and normality tests.
 
-[View Repository](https://github.com/ClaudethClarissa/Random-Walk-Statistical-Project)
+**Tools:** Python, NumPy, Pandas, SciPy, Matplotlib  
+**Skills:** Stochastic simulation, statistical distributions, hypothesis testing, scientific visualization  
+**Highlight:** Comparisons of symmetric and biased trajectories, supported by figures, a statistical report, and a conference poster.
+
+[Explore Project](https://github.com/ClaudethClarissa/Random-Walk-Statistical-Project)
 
 ---
 
 ## 🧠 Machine Learning & Computational Modeling
 
-Projects demonstrating statistical learning, predictive methods, unsupervised learning, and computational modeling.
+### 🧠 Detecting Depression-Related Language in Tweets
 
-### Detecting Depression-Related Language in Tweets
+Machine-learning classification of tweets using decision trees and unigram, bigram, and trigram features. The project addresses train/test feature leakage and tests how predictions change when explicit depression-related words are removed.
 
-**Tools:** Python, Pandas, Scikit-learn, Matplotlib, Jupyter
+**Tools:** Python, Pandas, Scikit-learn, Matplotlib, Jupyter  
+**Skills:** Text preprocessing, n-grams, decision trees, model evaluation, ablation experiments  
+**Highlight:** Unigram accuracy decreased from **99.61% to 88.42%** after removing explicit terms, illustrating the importance of interpreting model performance critically.
 
-A tweet-level classification project that uses decision trees and unigram, bigram, and trigram features to identify language labeled as depression-related. I corrected the feature-selection process to prevent information leakage from the test set and evaluated how model performance changes when explicit depression-related words are removed.
-
-**Skills demonstrated:**
-- Text preprocessing and n-gram feature extraction
-- Supervised classification with interpretable decision trees
-- Train/test splitting, duplicate handling, and leakage prevention
-- Accuracy, balanced accuracy, classification reports, and confusion matrices
-- Ablation experiments and critical evaluation of dataset limitations
-
-**Key observation:** Unigram accuracy decreased from **99.61% to 88.42%** after removing explicit depression-related terms. The project examines why this happens and why tweet classification should not be confused with clinical diagnosis.
-
-[View Repository and Executed Notebook](https://github.com/ClaudethClarissa/Depression_Sentiment_Analysis)
-
-![Comparison of model accuracies](https://raw.githubusercontent.com/ClaudethClarissa/Depression_Sentiment_Analysis/main/assets/model_accuracy.svg)
+[Explore Project](https://github.com/ClaudethClarissa/Depression_Sentiment_Analysis)
 
 ---
 
